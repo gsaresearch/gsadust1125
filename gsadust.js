@@ -45,14 +45,15 @@ let table = function(p)
     p.stroke(255);
     p.textSize(12);
 
-    for(f = 10; f <= 310; f = f+100)
+    p.rect(10, 10, 100, 20);
+    for(f = 160; f <= 360; f = f+100)
     {
       p.rect(f, 10, 100, 20);
     }
     p.text('time', 15, 25);
-    p.text('concentration', 115, 25);
-    p.text('latitude', 215, 25);
-    p.text('longitude', 315, 25);
+    p.text('concentration', 165, 25);
+    p.text('latitude', 265, 25);
+    p.text('longitude', 365, 25);
 
     if(mode === 1)
     {
@@ -65,9 +66,9 @@ let table = function(p)
           p.rect(r, 10+ 20*f, 100, 20);
         }
         p.text(row.getString(0), 15, 25+ 20*f);
-        p.text(row.getString(1), 115, 25+ 20*f);
-        p.text(row.getString(2), 215, 25+ 20*f);
-        p.text(row.getString(3), 315, 25+ 20*f);
+        p.text(row.getString(1), 165, 25+ 20*f);
+        p.text(row.getString(2), 265, 25+ 20*f);
+        p.text(row.getString(3), 365, 25+ 20*f);
       }
     }
     else
@@ -81,9 +82,9 @@ let table = function(p)
           p.rect(r, 10+ 20*f, 100, 20);
         }
         p.text(row.getString(0), 15, 25+ 20*f);
-        p.text(row.getString(1), 115, 25+ 20*f);
-        p.text(row.getString(2), 215, 25+ 20*f);
-        p.text(row.getString(3), 315, 25+ 20*f);
+        p.text(row.getString(1), 165, 25+ 20*f);
+        p.text(row.getString(2), 265, 25+ 20*f);
+        p.text(row.getString(3), 365, 25+ 20*f);
       }
     }
   };
