@@ -182,7 +182,7 @@ let info = function(i)
 {
   i.setup = function()
   {
-    i.createCanvas(200, 700);
+    i.createCanvas(210, 700);
     i.background(0);
     
     i.textSize(20);
