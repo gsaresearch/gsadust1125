@@ -58,7 +58,7 @@ let graph = function(p)
           longitude = (row.getString(3)-126.8471111)*118680.2753*5/3 +100;
           p.colorMode(p.HSB);
           p.fill(255 -(concentration-conStart)*255/conRange, 255, 255);
-          p.circle(longitude, latitude, 5);   
+          p.circle(longitude, latitude, 20);   
       }
     }
     if(mode === 2)
@@ -71,7 +71,7 @@ let graph = function(p)
           longitude = (row.getString(3)-126.8471111)*118680.2753*5/3 +100;
           p.colorMode(p.HSB);
           p.fill(255 -(concentration-conStart)*255/conRange, 255, 255);
-          p.circle(longitude, latitude, 5);
+          p.circle(longitude, latitude, 20);
       }
     }
   };
