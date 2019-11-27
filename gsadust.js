@@ -127,7 +127,7 @@ let graph = function(p)
   
   p.setup = function()
   {
-    p.createCanvas(700, 700, p.P2D);
+    p.createCanvas(650, 700, p.P2D);
   };
   
   p.draw = function()
@@ -182,7 +182,7 @@ let info = function(i)
 {
   i.setup = function()
   {
-    i.createCanvas(250, 700);
+    i.createCanvas(200, 700);
     i.background(0);
     
     i.textSize(20);
