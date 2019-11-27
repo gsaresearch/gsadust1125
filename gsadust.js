@@ -6,10 +6,10 @@ function setup()
 {
   let botton1, button2;
   button1 = createButton('pm2.5');
-  button1.position(10, 50);
+  button1.position(10, 100);
   button1.mouseClicked(button1clicked);
   button2 = createButton('pm10');
-  button2.position(10, 80);
+  button2.position(10, 130);
   button2.mouseClicked(button2clicked);
 }
 function button1clicked()
@@ -102,8 +102,8 @@ let info = function(i)
     i.text('Color - Concentration', 10, 30);
     i.text('(㎍/㎥)', 130, 70);
     i.text('10', 10, 85);
-    i.text('17.5', 10, 325);
-    i.text('25', 10, 585);
+    i.text('37.5', 10, 325);
+    i.text('65', 10, 585);
     
     i.noStroke();
     i.colorMode(i.HSB);
