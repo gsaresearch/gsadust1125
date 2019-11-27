@@ -85,6 +85,26 @@ let table = function(p)
       }
     }
   };
+  
+  p.mouseWheel = function()
+  {
+    p.translate(0, 10);
+  };
+
+  p.keyTyped = function()
+  {
+    if(p.key === '1')
+    {
+      mode = 1;
+    }
+    if(p.key === '2')
+    {
+      mode = 2;
+    }
+  };
+};
+let showtable = new p5(table);
+
 
 let graph = function(p)
 {
