@@ -1,5 +1,5 @@
 let conStart = 10;
-let conRange = 15;
+let conRange = 65;
 let mode = 1;
 
 function setup()
@@ -32,8 +32,8 @@ let graph = function(p)
   
   p.preload = function()
   {
-    table1 = p.loadTable('0828_pm2.5.csv');
-    table2 = p.loadTable('0828_pm10.csv');
+    table1 = p.loadTable('1125_pm2.5.csv');
+    table2 = p.loadTable('1125_pm10.csv');
     map = p.loadImage('GSA.png');
   };
   
