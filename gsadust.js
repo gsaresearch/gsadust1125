@@ -28,8 +28,8 @@ let table = function(p)
 
   p.preload = function()
   {
-    table1 = p.loadTable('0828_pm2.5.csv');
-    table2 = p.loadTable('0828_pm10.csv');
+    table1 = p.loadTable('1125_pm2.5.csv');
+    table2 = p.loadTable('1125_pm10.csv');
   };
 
   p.setup = function() 
