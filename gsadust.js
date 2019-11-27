@@ -198,8 +198,6 @@ let info = function(i)
       i.stroke(255 -(f-conStart)*255/conRange, 255, 255);
       i.line(50, (f-conStart)*500/conRange +80, 150, (f-conStart)*500/conRange +80);
     }
-    
   };
-  
 };
 let showinfo = new p5(info);
