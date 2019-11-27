@@ -34,7 +34,7 @@ let table = function(p)
 
   p.setup = function() 
   {
-    p.createCanvas(430, 700);
+    p.createCanvas(480, 700);
     p.frameRate(10);
   };
 
@@ -45,7 +45,7 @@ let table = function(p)
     p.stroke(255);
     p.textSize(12);
 
-    p.rect(10, 10, 100, 20);
+    p.rect(10, 10, 150, 20);
     for(f = 160; f <= 360; f = f+100)
     {
       p.rect(f, 10, 100, 20);
