@@ -59,7 +59,8 @@ let table = function(p)
       for(f = 1; f < table1.getRowCount(); f++)
       {
         row = table1.getRow(f); 
-        for(r = 10; r <= 310; r = r+100)
+        p.rect(10, 10+20*f, 150, 20);
+        for(r = 160; r <= 360; r = r+100)
         {
           p.rect(r, 10+ 20*f, 100, 20);
         }
@@ -74,7 +75,8 @@ let table = function(p)
       for(f = 1; f < table2.getRowCount(); f++)
       {
         row = table2.getRow(f); 
-        for(r = 10; r <= 310; r = r+100)
+         p.rect(10, 10+20*f, 150, 20);
+        for(r = 160; r <= 360; r = r+100)
         {
           p.rect(r, 10+ 20*f, 100, 20);
         }
