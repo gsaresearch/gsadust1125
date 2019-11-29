@@ -134,6 +134,14 @@ let graph = function(p)
   {
     p.background(0);
     p.image(map, 100, 100, 500, 500);
+    p.fill(255);
+    p.textSize(12);
+    p.text('위도(°)', 10, 350);
+    p.text('35.22902778°',10,100);
+    p.text('35.22697222°',10,600);
+    p.text('경도(°)', 350, 620);
+    p.text('126.8471111°',110,620);
+    p.text('126.8496389°',610,620);
 
     let row;
     if(mode === 1)
